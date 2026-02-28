@@ -1,9 +1,16 @@
 # 🛒 EDA — Brazilian E-Commerce Public Dataset (Olist)
 
-Repositório dedicado à Análise Exploratória de Dados (EDA) do dataset público da Olist,
-disponível no Kaggle. O objetivo não é apenas gerar gráficos — é desenvolver raciocínio
-analítico, senso de negócio e capacidade de extrair insights interpretáveis a partir de
-dados reais de e-commerce brasileiro.
+Análise Exploratória de Dados (EDA) do dataset público da Olist, disponível no Kaggle.
+O objetivo não é apenas gerar gráficos — mas desenvolver raciocínio analítico, senso de
+negócio e capacidade de extrair insights interpretáveis a partir de dados reais de
+e-commerce brasileiro.
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-3.0.1-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-2.4.2-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.8-11557c)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-4c72b0)
+![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle)
 
 ---
 
@@ -26,38 +33,51 @@ dados reais de e-commerce brasileiro.
 
 ---
 
-## 🧠 Perguntas que guiam a EDA
-
-- Quais categorias de produto concentram mais receita e mais reclamações?
-- Existe correlação entre tempo de entrega e nota de avaliação?
-- Quais estados têm os clientes mais valiosos (LTV implícito)?
-- Há sazonalidade clara nas vendas? Quais eventos explicam os picos?
-- O prazo estimado de entrega está alinhado com o prazo real?
-
----
-
 ## 🗂️ Estrutura do Repositório
 ```
-├── data/               # Dados brutos (não versionados)
-├── notebooks/          # Notebooks Jupyter com a EDA
-│   ├── 01_exploracao_inicial.ipynb
-│   ├── 02_qualidade_e_limpeza.ipynb
-│   ├── 03_analise_pedidos_e_receita.ipynb
-│   ├── 04_satisfacao_e_reviews.ipynb
-│   └── 05_insights_e_storytelling.ipynb
-├── src/                # Funções auxiliares e scripts
-├── outputs/            # Gráficos e relatórios exportados
+├── data/
+│   ├── raw/              ← arquivos originais do Kaggle (nunca modificados)
+│   └── processed/        ← dados após limpeza
+├── notebooks/
+│   ├── 01_initial_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_descriptive_statistics.ipynb
+│   ├── 04_sales_analysis.ipynb
+│   ├── 05_satisfaction_analysis.ipynb
+│   ├── 06_logistics_analysis.ipynb
+│   └── 07_insights.ipynb
+├── outputs/              ← gráficos e relatórios exportados
+├── .gitignore
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧠 Perguntas de Negócio
 
-- Python 3.12.4
-- Pandas / NumPy
-- Matplotlib / Seaborn / Plotly
-- Jupyter Notebook
+- Quais categorias de produto concentram mais receita e mais reclamações?
+- Existe correlação entre tempo de entrega e nota de avaliação?
+- Quais estados têm os clientes mais valiosos?
+- Há sazonalidade clara nas vendas? Quais eventos explicam os picos?
+- O prazo estimado de entrega está alinhado com o prazo real?
+
+---
+
+## 🚀 Como Reproduzir
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/Brazilian-E-Commerce-Public-Dataset.git
+
+# Crie e ative o ambiente virtual
+python -m venv .venv
+.venv\scripts\activate  # Windows
+source .venv/bin/activate  # Linux/Mac
+
+# Instale as dependências
+pip install -r requirements.txt
+```
 
 ---
 
@@ -70,3 +90,5 @@ dados reais de e-commerce brasileiro.
 ## 👤 Autor
 
 Adam Genezine Columbari
+
+Desenvolvido como projeto de portfólio em Análise e Ciência de Dados.
