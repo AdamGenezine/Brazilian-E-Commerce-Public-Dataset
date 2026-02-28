@@ -1,6 +1,3 @@
-# Brazilian-E-Commerce-Public-Dataset
-Análise Exploratória de Dados (EDA) do dataset Brazilian E-Commerce Public Dataset by Olist.  Foco em raciocínio analítico, hipóteses de negócio e storytelling com dados reais de e-commerce brasileiro (2016–2018).
-
 # 🛒 EDA — Brazilian E-Commerce Public Dataset (Olist)
 
 Repositório dedicado à Análise Exploratória de Dados (EDA) do dataset público da Olist,
@@ -57,7 +54,7 @@ dados reais de e-commerce brasileiro.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python 3.x
+- Python 3.12.4
 - Pandas / NumPy
 - Matplotlib / Seaborn / Plotly
 - Jupyter Notebook
@@ -72,4 +69,4 @@ dados reais de e-commerce brasileiro.
 
 ## 👤 Autor
 
-Desenvolvido como projeto de estudo em Análise de Dados.
+Adam Genezine Columbari
