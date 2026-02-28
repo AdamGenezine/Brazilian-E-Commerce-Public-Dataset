@@ -206,5 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-#Data
-data/
+# Data files
+data/raw/*.csv
+data/processed/*.csv
