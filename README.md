@@ -67,11 +67,26 @@ e-commerce brasileiro.
 
 ## 🧠 Perguntas de Negócio
 
-- Quais categorias de produto concentram mais receita e mais reclamações?
-- Existe correlação entre tempo de entrega e nota de avaliação?
-- Quais estados têm os clientes mais valiosos?
+### Vendas
+- Quais categorias de produto concentram mais receita?
 - Há sazonalidade clara nas vendas? Quais eventos explicam os picos?
-- O prazo estimado de entrega está alinhado com o prazo real?
+- Qual o ticket médio por categoria?
+- Quais os métodos de pagamento mais usados?
+- Quais os dias da semana com mais pedidos?
+
+### Satisfação
+- Existe correlação entre tempo de entrega e nota de avaliação?
+- Pedidos atrasados têm nota menor?
+- Quais categorias concentram mais reclamações?
+- Quais estados têm as piores avaliações?
+- A nota média melhorou ao longo do tempo?
+
+### Logística
+- Quais estados têm maior tempo médio de entrega?
+- O prazo estimado está alinhado com o prazo real?
+- Quais meses concentram mais atrasos?
+- Produtos mais pesados atrasam mais?
+- Entregas dentro do mesmo estado são mais rápidas?
 
 ---
 
