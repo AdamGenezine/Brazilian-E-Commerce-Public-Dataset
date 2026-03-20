@@ -33,11 +33,22 @@ e-commerce brasileiro.
 
 ---
 
+## 💡 Principais Insights
+
+- Pedidos entregues no prazo têm nota média **62% maior** que pedidos atrasados (4.14 vs 2.55)
+- Estados do Norte têm tempo de entrega **3x maior** que São Paulo (27.8 vs 8.3 dias)
+- **90.5%** dos pedidos chegam antes do prazo estimado — estratégia de prazos conservadores
+- Novembro/2017 registrou o maior volume de pedidos (7.451) impulsionado pela Black Friday
+- Nenhuma variável financeira influencia a nota do cliente — o que importa é o prazo de entrega
+- Janeiro concentra o maior número de atrasos — reflexo direto da Black Friday e Natal
+
+---
+
 ## 🗂️ Estrutura do Repositório
 ```
 ├── data/
-│   ├── raw/              ← arquivos originais do Kaggle (nunca modificados)
-│   └── processed/        ← dados após limpeza
+│   ├── raw/              ← arquivos originais do Kaggle (não versionados)
+│   └── processed/        ← dados após limpeza (não versionados)
 ├── notebooks/
 │   ├── 01_initial_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
@@ -65,7 +76,6 @@ e-commerce brasileiro.
 ---
 
 ## 🚀 Como Reproduzir
-
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/Brazilian-E-Commerce-Public-Dataset.git
@@ -83,12 +93,11 @@ pip install -r requirements.txt
 
 ## 📊 Status
 
-🚧 Em desenvolvimento — EDA progressiva do zero ao avançado.
+✅ Concluído
 
 ---
 
 ## 👤 Autor
 
-Adam Genezine Columbari
-
+**Adam Genezine Columbari**
 Desenvolvido como projeto de portfólio em Análise e Ciência de Dados.
