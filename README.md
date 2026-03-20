@@ -33,11 +33,22 @@ e-commerce brasileiro.
 
 ---
 
+## 💡 Principais Insights
+
+- Pedidos entregues no prazo têm nota média **62% maior** que pedidos atrasados (4.14 vs 2.55)
+- Estados do Norte têm tempo de entrega **3x maior** que São Paulo (27.8 vs 8.3 dias)
+- **90.5%** dos pedidos chegam antes do prazo estimado — estratégia de prazos conservadores
+- Novembro/2017 registrou o maior volume de pedidos (7.451) impulsionado pela Black Friday
+- Nenhuma variável financeira influencia a nota do cliente — o que importa é o prazo de entrega
+- Janeiro concentra o maior número de atrasos — reflexo direto da Black Friday e Natal
+
+---
+
 ## 🗂️ Estrutura do Repositório
 ```
 ├── data/
-│   ├── raw/              ← arquivos originais do Kaggle (nunca modificados)
-│   └── processed/        ← dados após limpeza
+│   ├── raw/              ← arquivos originais do Kaggle (não versionados)
+│   └── processed/        ← dados após limpeza (não versionados)
 ├── notebooks/
 │   ├── 01_initial_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
@@ -56,16 +67,30 @@ e-commerce brasileiro.
 
 ## 🧠 Perguntas de Negócio
 
-- Quais categorias de produto concentram mais receita e mais reclamações?
-- Existe correlação entre tempo de entrega e nota de avaliação?
-- Quais estados têm os clientes mais valiosos?
+### Vendas
+- Quais categorias de produto concentram mais receita?
 - Há sazonalidade clara nas vendas? Quais eventos explicam os picos?
-- O prazo estimado de entrega está alinhado com o prazo real?
+- Qual o ticket médio por categoria?
+- Quais os métodos de pagamento mais usados?
+- Quais os dias da semana com mais pedidos?
+
+### Satisfação
+- Existe correlação entre tempo de entrega e nota de avaliação?
+- Pedidos atrasados têm nota menor?
+- Quais categorias concentram mais reclamações?
+- Quais estados têm as piores avaliações?
+- A nota média melhorou ao longo do tempo?
+
+### Logística
+- Quais estados têm maior tempo médio de entrega?
+- O prazo estimado está alinhado com o prazo real?
+- Quais meses concentram mais atrasos?
+- Produtos mais pesados atrasam mais?
+- Entregas dentro do mesmo estado são mais rápidas?
 
 ---
 
 ## 🚀 Como Reproduzir
-
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/Brazilian-E-Commerce-Public-Dataset.git
@@ -83,12 +108,12 @@ pip install -r requirements.txt
 
 ## 📊 Status
 
-🚧 Em desenvolvimento — EDA progressiva do zero ao avançado.
+✅ Concluído
 
 ---
 
 ## 👤 Autor
 
-Adam Genezine Columbari
+**Adam Genezine Columbari**
 
 Desenvolvido como projeto de portfólio em Análise e Ciência de Dados.
