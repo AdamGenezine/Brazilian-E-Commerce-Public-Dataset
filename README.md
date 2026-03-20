@@ -115,4 +115,5 @@ pip install -r requirements.txt
 ## 👤 Autor
 
 **Adam Genezine Columbari**
+
 Desenvolvido como projeto de portfólio em Análise e Ciência de Dados.
