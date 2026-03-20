@@ -209,3 +209,13 @@ __marimo__/
 # Data files
 data/raw/*.csv
 data/processed/*.csv
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Data folders - keep .gitkeep
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
